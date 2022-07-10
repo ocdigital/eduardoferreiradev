@@ -115,7 +115,7 @@ return [
      */
 
     'hsts' => [
-        'enable' =>false,
+        'enable' => false,
 
         'max-age' => 31536000,
 
@@ -578,7 +578,7 @@ return [
         'script-src' => [
             'none' => false,
 
-            'self' => true,
+            'self' => false,
 
             'report-sample' => false,
 
@@ -593,7 +593,7 @@ return [
 
             /* followings are only work for `script` and `style` related directives */
 
-            'unsafe-inline' => true,
+            'unsafe-inline' => false,
 
             'unsafe-eval' => false,
 
